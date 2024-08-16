@@ -58,8 +58,11 @@
 		04279C522C6FF09200407297 /* QuickBite */ = {
 			isa = PBXGroup;
 			children = (
-				04279C532C6FF09200407297 /* AppDelegate.swift */,
-				04279C552C6FF09200407297 /* SceneDelegate.swift */,
+				04279C6E2C6FF13B00407297 /* Networking */,
+				04279C6D2C6FF12F00407297 /* Model */,
+				04279C6C2C6FF12300407297 /* Extensions */,
+				04279C6B2C6FF11B00407297 /* CustomViews */,
+				04279C6A2C6FF11200407297 /* Views */,
 				04279C572C6FF09200407297 /* ViewController.swift */,
 				04279C592C6FF09200407297 /* Main.storyboard */,
 				04279C5F2C6FF09300407297 /* Assets.xcassets */,
@@ -68,6 +71,51 @@
 				04279C5C2C6FF09200407297 /* QuickBite.xcdatamodeld */,
 			);
 			path = QuickBite;
+			sourceTree = "<group>";
+		};
+		04279C6A2C6FF11200407297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04279C6F2C6FF14700407297 /* App */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04279C6B2C6FF11B00407297 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		04279C6C2C6FF12300407297 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04279C6D2C6FF12F00407297 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04279C6E2C6FF13B00407297 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04279C6F2C6FF14700407297 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04279C532C6FF09200407297 /* AppDelegate.swift */,
+				04279C552C6FF09200407297 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
