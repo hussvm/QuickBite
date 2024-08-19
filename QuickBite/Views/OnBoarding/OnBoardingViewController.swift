@@ -38,7 +38,7 @@ class OnBoardingViewController: UIViewController {
         
         
         if currentPage == slides.count - 1 {
-            let controller = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! UIViewController
+            let controller = storyboard?.instantiateViewController(withIdentifier: "HomeNav") as! UINavigationController
             
             controller.modalTransitionStyle = .flipHorizontal
             controller.modalPresentationStyle = .fullScreen

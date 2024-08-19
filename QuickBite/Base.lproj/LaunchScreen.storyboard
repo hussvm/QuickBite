@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KKT-fg-TLZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuickLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KKT-fg-TLZ">
                                 <rect key="frame" x="76.666666666666686" y="318.66666666666669" width="240" height="240.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Pz6-Zy-vSi"/>
@@ -38,6 +38,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="QuickLogo" width="1031" height="1049"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
