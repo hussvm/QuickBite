@@ -24,6 +24,9 @@
 		0446E94C2C707E82003A986F /* UserDefualt+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446E94B2C707E82003A986F /* UserDefualt+Extension.swift */; };
 		0446E94E2C707EDE003A986F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446E94D2C707EDE003A986F /* HomeViewController.swift */; };
 		0446E9512C70F567003A986F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446E9502C70F567003A986F /* UIView+Extension.swift */; };
+		0447F5862C75B2AD0039AB50 /* PopualerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F5842C75B2AD0039AB50 /* PopualerCollectionViewCell.swift */; };
+		0447F5872C75B2AD0039AB50 /* PopualerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0447F5852C75B2AD0039AB50 /* PopualerCollectionViewCell.xib */; };
+		0447F5892C75B6480039AB50 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F5882C75B6480039AB50 /* Dish.swift */; };
 		6DBABA7EB900EFBA7B309B1A /* Pods_QuickBite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		0446E94B2C707E82003A986F /* UserDefualt+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefualt+Extension.swift"; sourceTree = "<group>"; };
 		0446E94D2C707EDE003A986F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0446E9502C70F567003A986F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0447F5842C75B2AD0039AB50 /* PopualerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopualerCollectionViewCell.swift; sourceTree = "<group>"; };
+		0447F5852C75B2AD0039AB50 /* PopualerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopualerCollectionViewCell.xib; sourceTree = "<group>"; };
+		0447F5882C75B6480039AB50 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		0BF93E051224A39FC464518E /* Pods-QuickBite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.release.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.release.xcconfig"; sourceTree = "<group>"; };
 		3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E002F13CE3F0B57F3D4E36 /* Pods-QuickBite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.debug.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 		041C97A72C74641D004F978C /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				0447F5832C75B1160039AB50 /* ChiefCollectionViewCell */,
+				0447F5822C75B0C50039AB50 /* PopualerCollectionViewCell */,
 				041C97A92C746473004F978C /* CategoryCollectionViewCell */,
 			);
 			path = CollectionViewCells;
@@ -158,6 +166,7 @@
 			children = (
 				04279C7A2C70737600407297 /* OnBoradingSlide.swift */,
 				041C97AE2C74668B004F978C /* DishCategory.swift */,
+				0447F5882C75B6480039AB50 /* Dish.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +202,22 @@
 				0446E94D2C707EDE003A986F /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		0447F5822C75B0C50039AB50 /* PopualerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0447F5842C75B2AD0039AB50 /* PopualerCollectionViewCell.swift */,
+				0447F5852C75B2AD0039AB50 /* PopualerCollectionViewCell.xib */,
+			);
+			path = PopualerCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0447F5832C75B1160039AB50 /* ChiefCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChiefCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		20F3C296D65D60B5960FF810 /* Frameworks */ = {
@@ -276,6 +301,7 @@
 				04279C632C6FF09300407297 /* LaunchScreen.storyboard in Resources */,
 				04279C602C6FF09300407297 /* Assets.xcassets in Resources */,
 				04279C5B2C6FF09200407297 /* Main.storyboard in Resources */,
+				0447F5872C75B2AD0039AB50 /* PopualerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +360,10 @@
 				0446E9512C70F567003A986F /* UIView+Extension.swift in Sources */,
 				041C97B12C746C77004F978C /* String+Extension.swift in Sources */,
 				0446E94E2C707EDE003A986F /* HomeViewController.swift in Sources */,
+				0447F5892C75B6480039AB50 /* Dish.swift in Sources */,
 				04279C562C6FF09200407297 /* SceneDelegate.swift in Sources */,
 				041C97B52C74739D004F978C /* CardView.swift in Sources */,
+				0447F5862C75B2AD0039AB50 /* PopualerCollectionViewCell.swift in Sources */,
 				041C97AC2C7464C6004F978C /* CategoryCollectionViewCell.swift in Sources */,
 				041C97AF2C74668B004F978C /* DishCategory.swift in Sources */,
 				04279C792C7072E600407297 /* OnBoardingViewController.swift in Sources */,
