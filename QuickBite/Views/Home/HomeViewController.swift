@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
     
     var categories: [DishCategory] = []
     var populars: [Dish] = []
+    var specials: [Dish] = []
     
     
     override func viewDidLoad() {

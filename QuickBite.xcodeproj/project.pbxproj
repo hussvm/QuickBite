@@ -27,6 +27,8 @@
 		0447F5862C75B2AD0039AB50 /* PopualerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F5842C75B2AD0039AB50 /* PopualerCollectionViewCell.swift */; };
 		0447F5872C75B2AD0039AB50 /* PopualerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0447F5852C75B2AD0039AB50 /* PopualerCollectionViewCell.xib */; };
 		0447F5892C75B6480039AB50 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F5882C75B6480039AB50 /* Dish.swift */; };
+		044997332C7631250082669D /* ChiefCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044997312C7631250082669D /* ChiefCollectionViewCell.swift */; };
+		044997342C7631250082669D /* ChiefCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044997322C7631250082669D /* ChiefCollectionViewCell.xib */; };
 		6DBABA7EB900EFBA7B309B1A /* Pods_QuickBite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		0447F5842C75B2AD0039AB50 /* PopualerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopualerCollectionViewCell.swift; sourceTree = "<group>"; };
 		0447F5852C75B2AD0039AB50 /* PopualerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopualerCollectionViewCell.xib; sourceTree = "<group>"; };
 		0447F5882C75B6480039AB50 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		044997312C7631250082669D /* ChiefCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiefCollectionViewCell.swift; sourceTree = "<group>"; };
+		044997322C7631250082669D /* ChiefCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChiefCollectionViewCell.xib; sourceTree = "<group>"; };
 		0BF93E051224A39FC464518E /* Pods-QuickBite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.release.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.release.xcconfig"; sourceTree = "<group>"; };
 		3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E002F13CE3F0B57F3D4E36 /* Pods-QuickBite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.debug.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 		0447F5832C75B1160039AB50 /* ChiefCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				044997312C7631250082669D /* ChiefCollectionViewCell.swift */,
+				044997322C7631250082669D /* ChiefCollectionViewCell.xib */,
 			);
 			path = ChiefCollectionViewCell;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044997342C7631250082669D /* ChiefCollectionViewCell.xib in Resources */,
 				041C97AD2C7464C6004F978C /* CategoryCollectionViewCell.xib in Resources */,
 				04279C632C6FF09300407297 /* LaunchScreen.storyboard in Resources */,
 				04279C602C6FF09300407297 /* Assets.xcassets in Resources */,
@@ -368,6 +375,7 @@
 				041C97AF2C74668B004F978C /* DishCategory.swift in Sources */,
 				04279C792C7072E600407297 /* OnBoardingViewController.swift in Sources */,
 				04279C772C7072CC00407297 /* OnBoardingCollectionViewCell.swift in Sources */,
+				044997332C7631250082669D /* ChiefCollectionViewCell.swift in Sources */,
 				04279C5E2C6FF09200407297 /* QuickBite.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
