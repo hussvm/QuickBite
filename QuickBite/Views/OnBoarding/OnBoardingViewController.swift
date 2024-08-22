@@ -28,8 +28,8 @@ class OnBoardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        slides = [.init(title: "Our Food", description: "Enjoy Your Meal", image: #imageLiteral(resourceName: "slide1.jpeg")),
-                  .init(title: "Payment", description: "You Can Pay With Anyway You Like", image: #imageLiteral(resourceName: "slide3"))]
+        slides = [.init(title: "Our Food", description: "Enjoy Your Meal", image: #imageLiteral(resourceName: "slide1")),
+                  .init(title: "Our Delivery", description: "Quick Deliver To Your Home", image: #imageLiteral(resourceName: "slide2"))]
         
         pageControl.numberOfPages = slides.count
     }

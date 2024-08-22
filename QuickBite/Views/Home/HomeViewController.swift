@@ -11,6 +11,8 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var categoryCollectionView: UICollectionView!
     @IBOutlet weak var popualerCollectionView: UICollectionView!
+    @IBOutlet weak var chiefColletionView: UICollectionView!
+    
     
     var categories: [DishCategory] = []
     var populars: [Dish] = []
@@ -27,6 +29,9 @@ class HomeViewController: UIViewController {
         categoryCollectionView.register(UINib(nibName: CategoryCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
         
         popualerCollectionView.register(UINib(nibName: PopualerCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: PopualerCollectionViewCell.identifier)
+        
+        chiefColletionView.register(UINib(nibName: ChiefCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: ChiefCollectionViewCell.identifier)
+        
     }
 }
 
@@ -41,6 +46,8 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             return categories.count
         case popualerCollectionView:
             return populars.count
+        case chiefColletionView:
+            return specials.count
             
         default: return 0
         }
