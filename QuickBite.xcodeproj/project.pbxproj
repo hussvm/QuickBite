@@ -29,6 +29,7 @@
 		0447F5892C75B6480039AB50 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447F5882C75B6480039AB50 /* Dish.swift */; };
 		044997332C7631250082669D /* ChiefCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044997312C7631250082669D /* ChiefCollectionViewCell.swift */; };
 		044997342C7631250082669D /* ChiefCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044997322C7631250082669D /* ChiefCollectionViewCell.xib */; };
+		04C9AA6B2C7710D500142972 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9AA6A2C7710D500142972 /* DishDetailViewController.swift */; };
 		6DBABA7EB900EFBA7B309B1A /* Pods_QuickBite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,7 @@
 		041C97AB2C7464C6004F978C /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		041C97AE2C74668B004F978C /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
 		041C97B02C746C77004F978C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		041C97B42C74739D004F978C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		041C97B42C74739D004F978C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ../../Extensions/CardView.swift; sourceTree = "<group>"; };
 		04279C502C6FF09200407297 /* QuickBite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04279C532C6FF09200407297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04279C552C6FF09200407297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		0447F5882C75B6480039AB50 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		044997312C7631250082669D /* ChiefCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiefCollectionViewCell.swift; sourceTree = "<group>"; };
 		044997322C7631250082669D /* ChiefCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChiefCollectionViewCell.xib; sourceTree = "<group>"; };
+		04C9AA6A2C7710D500142972 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
 		0BF93E051224A39FC464518E /* Pods-QuickBite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.release.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.release.xcconfig"; sourceTree = "<group>"; };
 		3A43BD3687B13BA73511F80F /* Pods_QuickBite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickBite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E002F13CE3F0B57F3D4E36 /* Pods-QuickBite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickBite.debug.xcconfig"; path = "Target Support Files/Pods-QuickBite/Pods-QuickBite.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		041C97A82C746441004F978C /* CardView */ = {
 			isa = PBXGroup;
 			children = (
+				041C97B42C74739D004F978C /* CardView.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 		04279C6A2C6FF11200407297 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04C9AA692C7710AA00142972 /* DishDetail */,
 				0446E94F2C70811F003A986F /* Home */,
 				04279C752C7072B800407297 /* OnBoarding */,
 				04279C6F2C6FF14700407297 /* App */,
@@ -157,7 +161,6 @@
 		04279C6C2C6FF12300407297 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				041C97B42C74739D004F978C /* CardView.swift */,
 				0446E94B2C707E82003A986F /* UserDefualt+Extension.swift */,
 				0446E9502C70F567003A986F /* UIView+Extension.swift */,
 				041C97B02C746C77004F978C /* String+Extension.swift */,
@@ -224,6 +227,14 @@
 				044997322C7631250082669D /* ChiefCollectionViewCell.xib */,
 			);
 			path = ChiefCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		04C9AA692C7710AA00142972 /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04C9AA6A2C7710D500142972 /* DishDetailViewController.swift */,
+			);
+			path = DishDetail;
 			sourceTree = "<group>";
 		};
 		20F3C296D65D60B5960FF810 /* Frameworks */ = {
@@ -369,6 +380,7 @@
 				0446E94E2C707EDE003A986F /* HomeViewController.swift in Sources */,
 				0447F5892C75B6480039AB50 /* Dish.swift in Sources */,
 				04279C562C6FF09200407297 /* SceneDelegate.swift in Sources */,
+				04C9AA6B2C7710D500142972 /* DishDetailViewController.swift in Sources */,
 				041C97B52C74739D004F978C /* CardView.swift in Sources */,
 				0447F5862C75B2AD0039AB50 /* PopualerCollectionViewCell.swift in Sources */,
 				041C97AC2C7464C6004F978C /* CategoryCollectionViewCell.swift in Sources */,
